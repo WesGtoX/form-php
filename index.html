@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Form PHP</title>
+
+    <style>
+        a {
+            text-decoration: none;
+            color: unset;
+        }
+    </style>
+</head>
+<body>
+    <form action="formphp.php" method="post">
+        <input type="text" required placeholder="Nome completo" name="user[nome]"><br><br>
+        <input type="text" required placeholder="E-mail" name="user[email]"><br><br>
+        <input type="text" required placeholder="CPF" name="user[cpf]"><br><br>
+        <input type="text" required placeholder="Telefone" name="user[fone]"><br><br>    
+        
+        <button type="submit">Enviar</button>
+    </form>
+    <br>
+    <a href="showformphp.php"><button>Visualizar</button></a>
+</body>
+</html>
